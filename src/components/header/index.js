@@ -4,7 +4,8 @@ import cookie from 'react-cookies'
 
 class Header extends Component {
     state={
-        headerchange:""
+        headerchange:"",
+        menushow:false
     };
     componentDidMount(){
         console.log("props log in",this.props.loggedIn);
@@ -46,11 +47,13 @@ class Header extends Component {
                                 }
                                 {
                                     this.state.headerchange==="show" && <div className="auth-links">
-                                        <div className="user dropdown-toggle-split" data-toggle="dropdown" href="#"/>
-                                        <ul className="dropdown-menu">
+                                        <div className="user dropdown-toggle-split" onClick={()=>  this.setState({menushow:!this.state.menushow})}/>
+                                        {
+                                            this.state.menushow && <ul className="dropdown-menu">
                                             <li><Link to="/changePassword">Change Password</Link></li>
                                             <li><Link to="/" onClick={()=> this.logout()}>Logout</Link></li>
                                         </ul>
+                                        }
                                     </div>
                                 }
                             </div>
