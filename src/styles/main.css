@@ -1,0 +1,807 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:400,700,900&display=swap');
+.logo img{
+    width: 100%;
+}
+.header span{
+    font-size: 11.746px;
+    letter-spacing: 0px;
+    color: rgb(88, 89, 91);
+    font-weight: bold;
+    line-height: 1.2;
+}
+.header span a:hover{
+    color: #448CCB;
+}
+.header span a{
+    color: rgb(88, 89, 91);
+    text-decoration: none;
+}
+.main-nav{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.auth-links{
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    position: relative;
+}
+.auth-links .dropdown-menu{
+    left: unset!important;
+    right: 0;
+}
+.auth-links .user{
+    width: 30px;
+    height: 30px;
+    border-radius:50%;
+    background-color: black;
+
+}
+.header span:nth-child(2){
+    margin-left: 20px;
+}
+.auth-links span:first-child{
+    border-right: 2px solid #77C9ED;
+    padding-right: 20px;
+}
+.job-post button:hover{
+    color: rgb(255, 255, 255);
+}
+.job-post button{
+    background-color: rgb(237, 123, 24);
+    font-size: 12.746px;
+    /*font-family: "Myriad Pro";*/
+    font-family: 'Open Sans', sans-serif;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 1.2;
+    border-radius: 15px;
+    padding: 7px 23px;
+    outline: hidden;
+}
+.second-two .smalltext p{
+    font-weight: 500;
+    font-size: 15px;
+    font-family: "Lato", sans-serif;
+    color: rgb(255, 255, 255);
+    line-height: 1.652;
+    margin: 25px 0px;
+    padding-left: 10px;
+}
+.second-two .largetext h2{
+
+    font-size: 44.366px;
+    font-family: "Lato", sans-serif;
+    color: rgb(255, 255, 255);
+    line-height: 1.2;
+}
+.hire-want-section{
+    /*background-color: #3B96D3;*/
+    background-image: url("../assets/Capture.PNG");
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 552px;
+}
+.second-two{
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+
+.second-two .hire-work-buttons button:nth-child(2){
+    background: transparent;
+    border:2px solid  rgb(255, 255, 255);
+    margin-left: 5%;
+}
+.second-two .hire-work-buttons a:nth-child(2){
+    background: transparent;
+
+}
+
+.second-two .hire-work-buttons button{
+    font-size: 15px;
+    /* font-family: "Myriad Pro"; */
+    color: rgb(255, 255, 255);
+    font-weight: 500;
+    line-height: 1.2;
+    background-color: rgb(237, 123, 24);
+    border-radius: 26px;
+    padding: 15px 30px;
+}
+.second-two .hire-work-buttons a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+.black-back .oval{
+    border-width: 2px;
+    border-color: rgb(41, 170, 226);
+    border-style: solid;
+    border-radius: 50%;
+    width: 90px;
+    height: 90px;
+}
+.black-back{
+    padding: 45px 50px;
+    background-color: #333333;
+    display: flex!important;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.black-back h2{
+    margin-bottom: 0px;
+    font-size: 36px;
+    font-family: "Lato",sans-serif;
+    font-weight: bold;
+}
+.white{
+    color: #ffffff;
+}
+.margin-9{
+    margin-top: 9%;
+}
+.what-are-you-looking  .top-text h2{
+    font-size: 36px;
+    font-family: "Lato",sans-serif;
+    font-weight: bold;
+    color: rgb(51, 51, 51);
+    line-height: 1.2;
+}
+.what-are-you-looking .top-text p{
+    margin-top: 2%;
+    font-size: 15px;
+    font-family: "Lato",sans-serif;
+    color: rgb(51, 51, 51);
+    line-height: 1.652;
+}
+
+.what-are-you-looking .single-oval p{
+    margin: 6% 0px 21% 0px;
+    font-family: "Lato",sans-serif;
+    font-size: 15px;
+    text-align: center;
+}
+
+.small-ovals{
+    width: 50px;
+    height: 50px;
+    border: 1px solid #5496CF;
+    border-radius: 50%;
+}
+.ovals{
+    margin-top:6%;
+    display: flex!important;
+    margin-top: 6%;
+    justify-content: flex-end;
+    padding: 0 80px;
+}
+.single-oval{
+    box-sizing: unset;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px!important;
+}
+.post-a-job-btn{
+    display: flex;
+    justify-content: center;
+    margin-top: 3%;
+    margin-bottom: 8%;
+}
+.post-a-job-btn button{
+    background-color: rgb(237, 123, 24);
+    font-size: 15px;
+    /* font-family: "Myriad Pro"; */
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    border-radius: 50px;
+    padding: 15px 64px;
+}
+.post-a-job-btn button:hover{
+    color: rgb(255, 255, 255);
+}
+
+.why-gohirenow{
+    margin-top: 2%;
+    background-image: url("../assets/RoundedRectangle1.png");
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.why-gohirenow .inner-div{
+    box-shadow: -10px 0px 47px -19px rgba(107,97,107,0.87);
+    padding: 7% 7% 0 7%;
+    border-radius: 50px;
+    background-color: #ffffff;
+}
+.gohire-why{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin-top: 5%;
+}
+.gohire-why h2{
+        font-size: 36px;
+    font-family: "Lato",sans-serif;
+    font-weight: bold;
+    color: rgb(51, 51, 51);
+    line-height: 1.2;
+}
+.black-ovals:first-child{
+    margin-top: 4%;
+}
+.black-ovals{
+    display: flex;
+    align-items: center;
+    margin-bottom: 8%;
+}
+.black-oval{
+    background-color: black;
+    width:75px;
+    height:75px;
+    border-radius: 50%;
+    margin-right: 8%;
+}
+.oval-paragraph p{
+    font-size: 15px;
+    margin-bottom: 0px;
+}
+.oval-paragraph{
+    width:70%;
+}
+
+.gohire-why p{
+        margin-top: 2%;
+    font-size: 15px;
+    font-family: "Lato",sans-serif;
+    color: rgb(51, 51, 51);
+    line-height: 1.652;
+}
+
+.pricing .price-box h4{
+    font-size: 22px;
+    /*font-family: "Myriad Pro";*/
+    color: rgb(51, 51, 51);
+    font-weight: bold;
+    line-height: 1.2;
+    text-align: center;
+    min-height: 70px;
+}
+.pricing .price-box .price-in-dollars{
+    color: #5D9BD2;
+}
+.pricing .price-box {
+    align-items: center;
+    padding: 20px 0px!important;
+
+}
+.pricing{
+    border: 1px solid black;
+
+}
+.borderright{
+    border-right: 1px solid black;
+}
+.pricing .price-box:last-child{
+
+}
+.pricing .price-box p{
+        font-size: 15px;
+}
+.pricing .price-box span{
+    font-size: 18px;
+}
+.post-a-job{
+    background-color: #5D9BD2!important;
+    font-size: 15px!important;
+    /* font-family: "Myriad Pro"; */
+    color: rgb(255, 255, 255)!important;
+    font-weight: bold!important;
+    border-radius: 50px!important;
+    padding: 15px 64px!important;
+}
+.trust-comp{
+    background-color: #333333;
+    padding: 7% 5%;
+}
+.trust-comp>p{
+    font-size: 15px;
+    margin-top: 2%;
+    font-family: "Lato",sans-serif;
+    line-height: 1.652;
+}
+.white-ovals{
+    width: 100%;
+    justify-content: space-evenly;
+    margin: 8% 0px 3% 0px;
+    flex-wrap: wrap;
+}
+.orange-ovals{
+    width: 100%;
+    justify-content: space-evenly;
+    margin: 6% 0px 8% 0px;
+    flex-wrap: wrap;
+}
+.white-oval{
+    background-color: white;
+    width: 85px;
+    height: 85px;
+    border-radius: 50%;
+
+}
+    .many-ovals{
+    margin-top: 7%;
+}
+.orange-oval{
+    background-color: #ED7B18;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+.blue-ovals{
+ background-color: #448CCB!important;
+}
+
+.quotes h2{
+    font-size: 36px;
+    font-family: "Lato",sans-serif;
+    font-weight: bold;
+    color: rgb(51, 51, 51);
+    line-height: 1.2;
+}
+
+.save-a-lot .header h1{
+    font-size: 22px;
+    /*font-family: "Myriad Pro";*/
+    color: rgb(51, 51, 51);
+    font-weight: bold;
+    line-height: 1.2;
+    padding: 30px 0;
+}
+.save-a-lot .para p{
+    font-size: 19px;
+    /*font-family: "OpenSans";*/
+    color: rgb(0, 0, 0);
+    line-height: 1.652;
+    text-align: center;
+}
+.save-a-lot .author h1{
+    font-size: 20px;
+    /*font-family: "Myriad Pro";*/
+    color: #448CCB;
+    font-weight: bold;
+    line-height: 1.2;
+    padding: 30px 0;
+}
+
+.how-it-works-page .top-text h2{
+  font-size: 36px;
+  font-family: "Lato", sans-serif;
+  font-weight: bold;
+  color: rgb(51, 51, 51);
+  line-height: 1.2;
+}
+.how-it-works .inner-div{
+    padding: 7%;
+    background-color: #ffffff;
+}
+.how-it-works .hire-work-buttons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin:50px 0 30px 0;
+}
+.how-it-works .hire-work-buttons button:nth-child(2){
+    background: transparent;
+    border:2px solid  rgb(0, 0, 0);
+    color:rgb(0, 0, 0);
+    margin-left: 5%;
+}
+
+.how-it-works .hire-work-buttons button{
+    font-size: 15px;
+    /* font-family: "Myriad Pro"; */
+    color: rgb(255, 255, 255);
+    font-weight: 500;
+    line-height: 1.2;
+    background-color: rgb(237, 123, 24);
+    border-radius: 26px;
+    padding: 15px 30px;
+}
+.how-it-works .cont-div p{
+    font-size: 14px;
+}
+.how-it-works .pic-div{
+    background-color: #ebebeb;
+    width: 100%;
+    height: 280px;
+}
+.how-it-works .cont-div{
+    display: flex;
+    flex-direction: column;
+    justify-content:space-evenly;
+    height: 100%;
+}
+.how-it-works .works-content .sota{
+    margin: 50px 0;
+}
+.how-it-works .works-content .sota:nth-child(even){
+    display: flex;
+    flex-direction: row-reverse!important;
+}
+.how-it-works .works-content .sota:nth-child(even) p{
+    text-align: right;
+}
+.how-it-works .works-content .sota:nth-child(even) h2{
+    text-align: right;
+}
+.registration{
+    background-color: #f8f8f8;
+}
+.registration .inner-div{
+    display: flex;
+    flex-direction: column;
+    padding: 40px 0;
+}
+.registration .inner-div h2{
+  font-size: 36px;
+  font-family: "Lato";
+  color: rgb(51, 51, 51);
+  line-height: 1.2;
+  font-weight: bold;
+}
+
+
+.registration .hire-work-buttons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 50px 0 30px 0;
+    width: 100%;
+}
+.registration .hire-work-buttons a:nth-child(2){
+    background-color: transparent;
+    border:2px solid  rgba(0, 0, 0, 0.5);
+    color:#448CCB;
+    margin-left: 2%;
+}
+.registration .register-work-form .hire-work-buttons a:nth-child(1){
+    background: transparent;
+    border:2px solid  rgba(0, 0, 0, 0.5);
+    color:#448CCB;
+    margin: 0 0;
+}
+.registration .register-work-form .hire-work-buttons a:nth-child(2) {
+    border: none;
+}
+.registration .hire-work-buttons a{
+    font-size: 15px;
+    /* font-family: "Myriad Pro"; */
+    color: rgb(255, 255, 255);
+    font-weight: 500;
+    line-height: 1.2;
+    background-color: #448CCB;
+    border-radius: 26px;
+    padding: 15px 30px;
+    text-decoration: none;
+}
+.register-form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #f8f8f8;
+}.register-work-form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #f8f8f8;
+}
+.register-form .inner-form{
+    width: 30%;
+}
+.register-work-form .inner-pass-form{
+       padding: 20px 0;
+    width: 30%;
+}
+#reset-confirm .inner-pass-form p{
+  font-size: 16px;
+  font-family: "Lato",sans-serif;
+  color: rgb(51, 51, 51);
+  line-height: 1.652;
+}
+
+.register-work-form .inner-pass-form input {
+    border-width: 1px;
+    border-color: rgb(204, 204, 204);
+    border-style: solid;
+    border-radius: 33px;
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    padding: 12px 16px;
+    outline: none;
+        margin-top: 20px;
+}
+.register-work-form .inner-pass-form textarea {
+    border-width: 1px;
+    border-color: rgb(204, 204, 204);
+    border-style: solid;
+    border-radius: 33px;
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    height: 200px;
+    padding: 12px 24px;
+    margin-top: 20px;
+
+}
+#payment .register-work-form .inner-pass-form select {
+    border-width: 1px;
+    border-color: rgb(204, 204, 204);
+    border-style: solid;
+    border-radius: 33px;
+    background-color: rgb(255, 255, 255);
+    padding: 12px 16px;
+    outline: none;
+    width: 48%;
+}
+#payment .register-work-form .inner-pass-form .select-fields{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+#payment .register-work-form .inner-pass-form{
+    height: 250px;
+}
+#payment .inner-div h2{
+    margin-bottom: 40px;
+}
+#payment .inner-div p span{
+    font-weight: bold;
+}
+#payment .payment-images>div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#payment .payment-images{
+    padding: 0 50px;
+}
+#payment .payment-images>div img{
+    width: 75%;
+}
+.register-form .inner-form input,.register-form .inner-form select {
+    border-width: 1px;
+    border-color: rgb(204, 204, 204);
+    border-style: solid;
+    border-radius: 33px;
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    padding: 12px 16px;
+    outline: none;
+    margin-bottom: 20px;
+}
+.register-work-form .inner-form{
+    width: 30%;
+}
+.register-work-form .inner-form input,.register-work-form .inner-form select {
+    border-width: 1px;
+    border-color: rgb(204, 204, 204);
+    border-style: solid;
+    border-radius: 33px;
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    padding: 12px 16px;
+    outline: none;
+    margin-bottom: 20px;
+}
+.sign-up-btn{
+    width: 30%;
+    margin: 22px 0;
+}
+.sign-up-btn button{
+    background-color: #ED7B18!important;
+    font-size: 15px!important;
+    color: rgb(255, 255, 255)!important;
+    font-weight: bold!important;
+    border-radius: 50px!important;
+    padding: 12px 90px!important;
+    width: 100%;
+}
+.already-member a{
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+}
+.already-member p{
+    font-size: 14px;
+    /*font-family: "Lato";*/
+    color: rgb(51, 51, 51);
+    line-height: 1.652;
+    text-align: center;
+}
+
+.registration .register-work-form .hire-work-buttons a:nth-child(1){
+    background: transparent;
+    border:2px solid  rgba(0, 0, 0, 0.5);
+    color:#448CCB;
+    margin: 0 0;
+}
+
+.registration .register-work-form .hire-work-buttons a{
+    font-size: 15px;
+    /* font-family: "Myriad Pro"; */
+    color: rgb(255, 255, 255);
+    font-weight: 500;
+    line-height: 1.2;
+    background-color: #448CCB;
+    border-radius: 26px;
+    padding: 15px 30px;
+}
+#contact .inner-pass-form>div{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+#contact .inner-pass-form>div input{
+    width: 48%;
+    padding: 12px 24px;
+}
+#contact .register-work-form .inner-pass-form{
+    width: 65%;
+
+}
+#contact .head{
+    padding: 30px 0;
+}
+/*footer css*/
+.cont-center{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.cont-center hr{
+    height: 1px;
+    width: 50%;
+    border-top: 1px solid rgba(255,255,255,.1);
+}
+.footer-icon{
+    display: flex;
+    width: 20%;
+    justify-content: space-evenly;
+        margin-top: 2%;
+}
+.footer-icon i{
+    background-color: #448CCB;
+    padding: 10px 15px;
+    border-radius: 50%;
+    font-size: 24px;
+}
+.footer-icon .fa-twitter,.footer-icon .fa-instagram{
+    padding: 10px 12px;
+}
+.get-a-quote {
+    background-color: #ED7B18!important;
+    font-size: 15px!important;
+    color: rgb(255, 255, 255)!important;
+    font-weight: bold!important;
+    border: 2px solid white!important;
+    border-radius: 50px!important;
+    padding: 15px 64px!important;
+}
+.info-div{
+    background-color: #448CCB;
+    height: 332px;
+    display: flex;
+}
+.info-div .content-div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.info-div .img-div{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.info-div .btn-div{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.info-div .content-div h1 {
+    font-size: 38px;
+    /*font-family: "Lato";*/
+    color: rgb(255, 255, 255);
+    line-height: 1.2;
+}
+.info-div .content-div p{
+    font-size: 17px;
+    /*font-family: "Lato";*/
+    color: rgb(255, 255, 255);
+    line-height: 1.652;
+}
+.footer{
+    background-image: url("../assets/RoundedRectangle.png");
+    background-position: bottom;
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding-top: 5%;
+    background-color: #f8f8f8;
+}
+.footer-mid{
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.footer-anchors{
+    padding: 15px 0;
+}
+.footer-anchors>div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer-anchors>div p, .footer-anchors>div a {
+    font-size: 20px;
+    /*font-family: "Myriad Pro";*/
+    color: rgb(245, 245, 245);
+    font-weight: bold;
+    line-height: 1.2;
+    text-decoration: none;
+}
+.footer-anchors>div a:hover{
+    color: #448ccb;
+}
+.footer-bottom{
+    padding: 40px;
+}
+.footer-bottom .cont-center p{
+    font-size: 16px;
+    /*font-family: "Myriad Pro";*/
+    color: rgb(255, 255, 255);
+    line-height: 1.9;
+}
+.mobile-menu{
+    display: none!important;
+}
+.black-circle-adj{
+    display: flex;
+    justify-content: space-evenly;
+    width: 68%;
+}
+
+.checkbox-div{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+.checkbox-div input{
+    width: 12%!important;
+    margin-top: 0;
+}
+.checkbox-div p{
+    width: 100%;
+    margin: 20px 0 0 0;
+
+}
+#reset-confirm .inner-div{
+        min-height: 65vh;
+}
+.how-it-works{
+    background-color: #f8f8f8;
+}
+.how-it-works .inner-div{
+    background-color: #f8f8f8;
+
+}
+
+

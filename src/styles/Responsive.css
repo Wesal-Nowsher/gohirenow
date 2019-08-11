@@ -1,0 +1,150 @@
+@media (min-width: 320px) and (max-width: 480px){
+    .save-a-lot{
+        flex-wrap: wrap;
+    }
+    .desktop-menu{
+        display: none!important;
+    }
+    .mobile-menu{
+        display: flex!important;
+    }
+    .dropdown-toggle::after{
+        display: none!important;
+    }
+    .dropdown-toggle i{
+        font-size: 24px;
+    }
+    .second-two{
+        max-width: 100%!important;
+    }
+    .second-two .hire-work-buttons button:nth-child(2) {
+         margin-left: 0;
+        margin-top: 5%;
+    }
+    .second-two .hire-work-buttons{
+        display: flex;
+        flex-direction: column;
+    }
+    .black-circle-adj {
+        width: 100%;
+    }
+    .black-back .oval{
+        width: 60px;
+        height: 60px;
+    }
+    .black-back {
+        padding: 45px 4px;
+    }
+    .what-are-you-looking .top-text h2 {
+        font-size: 26px;
+    }
+    .what-are-you-looking .top-text p {
+        font-size: 14px;
+    }
+    .small-ovals {
+        width: 80px;
+        height: 80px;
+    }
+    .what-are-you-looking .single-oval p {
+        font-size: 12px;
+    }
+    .black-ovals {
+        flex-direction: column;
+    }
+    .white-oval {
+        width: 90px;
+        height: 90px;
+    }
+    .orange-oval {
+        width: 110px;
+        height: 110px;
+        margin: 10px;
+    }
+    .footer {
+        background-position: center;
+        background-size: cover;
+    }
+    .footer-bottom .cont-center p {
+        font-size: 14px;
+        text-align: center;
+    }
+    .footer-icon {
+        width: 75%;
+    }
+    .info-div{
+        padding: 10px;
+    }
+    .info-div .img-div {
+        justify-content: center;
+    }
+    .info-div .content-div h1 {
+        text-align: center;
+    }
+    .info-div .content-div p {
+        text-align: center;
+    }
+    .info-div .btn-div {
+        justify-content: center;
+    }.pricing .price-box h4 {
+         font-size: 9px;
+     }
+    .pricing .price-box p {
+        font-size: 8px;
+    }
+    .pricing .price-box span {
+        font-size: 8px;
+    }
+    .how-it-works .hire-work-buttons button {
+        font-size: 12px;
+        padding: 10px 12px;
+    }
+    .how-it-works .cont-div p{
+        font-size: 12px;
+    }
+    .register-form .inner-form {
+        width: 100%;
+    }
+    .sign-up-btn {
+        width: 100%;
+    }
+    .register-work-form .inner-form {
+        width: 100%;
+    }
+    .registration .register-work-form .hire-work-buttons button {
+        font-size: 13px;
+    }
+    .register-work-form .inner-pass-form {
+        width: 100%;
+    }
+    #contact .register-work-form .inner-pass-form {
+        height: 390px;
+        width: 100%;
+    }
+    #payment .payment-images>div img{
+        padding: 20px;
+    }
+}
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+    .register-work-form .inner-pass-form {
+        width: 30%;
+    }
+    .register-work-form .inner-form {
+        width: 30%;
+    }
+    .register-form .inner-form {
+        width: 30%;
+    }
+    .sign-up-btn button {
+    padding: 12px 67px!important;
+}
+    .footer {
+        background-position: center;
+        background-size: cover;
+    }
+    .footer-mid {
+        height: 200px;
+    }
+    .footer-anchors>div p {
+        font-size: 14px;
+    }
+}
