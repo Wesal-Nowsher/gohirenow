@@ -34,7 +34,7 @@ class PassRecovery extends Component {
         let emailErr="";
         let currentErr="";
         let newPassErr="";
-        if(this.state.currentPassword==="" || this.state.currentPassword!== this.props.userStoreData.Password){
+        if(this.state.currentPassword==="" ){
             console.log("currentpassword",this.state.currentPassword);
             currentErr="incorrect";
         }
@@ -42,7 +42,7 @@ class PassRecovery extends Component {
             console.log("n ewpassword",this.state.newPassword);
             newPassErr="incorrect";
         }
-        if(!this.state.email.includes('@') || this.state.email!== this.props.userStoreData.Email){
+        if(!this.state.email.includes('@')  ){
             console.log("email ",this.state.email);
             emailErr="email error";
         }
@@ -69,7 +69,8 @@ class PassRecovery extends Component {
             formData.append('OldPassword', this.state.currentPassword);
             formData.append('Password', this.state.newPassword);
             console.log("form data is valid");
-            axios.post(apiPath + "account/changepassword", formData,{
+            console.log("token ",this.props.userStoreData.token);
+            axios.put(apiPath + "account/changepassword", formData,{
                 headers:{
                     Authorization: 'Bearer ' + this.props.userStoreData.token
                 }
@@ -106,9 +107,9 @@ class PassRecovery extends Component {
                                     <div className="inner-pass-form">
                                         <input type="email" name="email" placeholder="Email Address" onChange={this.handleChange} />
                                         <div className="form-error">{this.state.emailErr}</div>
-                                        <input type="text" name="currentPassword" placeholder="Current Password" onChange={this.handleChange} />
+                                        <input type="password" name="currentPassword" placeholder="Current Password" onChange={this.handleChange} />
                                         <div className="form-error">{this.state.currentErr}</div>
-                                        <input type="text" name="newPassword" placeholder="New Password" onChange={this.handleChange} />
+                                        <input type="password" name="newPassword" placeholder="New Password" onChange={this.handleChange} />
                                         <div className="form-error">{this.state.newPassErr}</div>
                                     </div>
                                     <div className="sign-up-btn">

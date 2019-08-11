@@ -135,7 +135,7 @@ class RegisterWork extends Component {
                                     <Link to="/register-work">i want to work</Link>
                                 </div>
                                 <div className="inner-form">
-                                        <input type="text" placeholder="Company Name" name="cname" onChange={event=> this.setState({cname: event.target.value})} required />
+                                        <input type="text" placeholder="Full Name" name="cname" onChange={event=> this.setState({cname: event.target.value})} required />
                                         
                                         <input type="text" placeholder="Email Address" name="email" onChange={event=> this.setState({email: event.target.value})} required/>
                                         

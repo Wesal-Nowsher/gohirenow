@@ -28,7 +28,7 @@ export class Provider extends Component {
         userStoreData:{
             email:"",
             password:"",
-            token:""
+            token:cookie.load('token')
         }
     };
     render() {
