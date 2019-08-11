@@ -105,7 +105,7 @@ class RegisterHire extends Component {
                     }
                     else
                 {
-                        this.setState({ showErr: "Check your Password"});
+                        this.setState({ showErr: "Check your email or password, Password must have a charactor. a number and a capital letter"});
                         
                 }
                 })

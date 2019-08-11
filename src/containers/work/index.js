@@ -51,7 +51,12 @@ class RegisterWork extends Component {
         let {dispatch} = this.props;
         if (email=== "" || password === "" || cname==="" || country==="") {
             this.setState({showErr:"All fields must be filled"})
-        } else{
+        }
+
+        else if(!email.includes("@")){
+                  this.setState({showErr:"check your email"})
+        }
+         else{
             const formData = new FormData();
             formData.append('Email', this.state.email);
             formData.append('Password', this.state.password);
@@ -100,7 +105,7 @@ class RegisterWork extends Component {
                     }
                     else
                 {
-                        this.setState({ showErr: "Check your Password"});
+                        this.setState({ showErr: "Check your data, Password must have a charactor. a number and a capital letter"});
                         
                 }
                 })
